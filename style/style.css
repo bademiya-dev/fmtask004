@@ -1,0 +1,129 @@
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Bona+Nova+SC:ital,wght@0,400;0,700;1,400&family=Six+Caps&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&display=swap');
+*{
+    margin:0;
+    padding:0;
+}
+body{
+    box-sizing: border-box;
+    background-color: #fff;
+    font-family: "Anton", sans-serif;
+    font-family: "Poppins", sans-serif;
+    font-family: "Roboto Condensed", sans-serif;
+    box-sizing: border-box;
+  
+}
+.container{
+    width:100%;
+    height:100vh;
+    /* background: url("../design/desktop-design.jpg");
+    background-repeat:no-repeat; */
+}
+.wrapper{
+    width:100%;
+    height: 100vh;
+    margin:auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.card{
+    width: 57.5rem;
+    /* height: 31.3rem; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.box{
+    width:33.3%;
+    /* height:31rem; */
+    /* padding-left: 3rem; */
+    padding-left:3rem;
+    
+}
+.one{
+    background-color:#e28525;
+}
+.two{
+    background-color:#016972;
+}
+.three{
+    background-color:#00403f;
+}
+.picture{
+    width:65px;
+    height:62px;
+    padding-top:12rem;
+    margin-top:1rem;
+}
+.txt1{
+    font-size:36px;
+    color:#fff;
+    font-family: "Anton", sans-serif;
+    font-weight: 500;
+    letter-spacing: 0.2rem;
+    margin-top:2rem;
+   
+}
+.txt2{
+    font-family: "Poppins", sans-serif;
+    font-size:14px;
+    margin-top:1.6rem;
+    font-weight: 400;
+    line-height: 25px;
+    padding-right:4rem;
+    color:#fff;
+    
+}
+.txt3{
+    margin-left: 0rem;
+    margin-top: 5.3rem;
+    background-color: #fff;
+    line-height: 3rem;
+    color: #e28525;
+    margin-right: 7rem;
+    text-align: center;
+    border-radius: 5rem;
+    font-size:16px;
+    font-weight: 600;
+    margin-bottom:2rem;
+    
+}
+.lM2{
+    color:#016972;
+}
+.lM3{
+    color:#00403f;
+}
+
+@media only screen and (max-width: 600px) { 
+    .container{
+        width:100%;
+    }
+    .wrapper{
+        width:100%;
+        
+    }
+    .card{
+        width: 300px;
+        height: auto;
+        flex-direction: column;
+        /* flex-direction: column-reverse; */
+        margin-top:15rem;
+        
+
+    }
+    .box{
+        width:100%;
+    }
+    .one{
+        margin-top:15rem;
+    }
+    .three{
+        margin-bottom:15rem;
+    }
+    
+   
+    
+}
